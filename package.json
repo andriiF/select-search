@@ -2,6 +2,9 @@
   "name": "select-search",
   "version": "0.1.0",
   "private": true,
+  "author": {
+    "name": "Andrii Fedorenko",
+    "email": "andreiif123@gmail.com",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
