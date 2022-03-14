@@ -1,16 +1,17 @@
 {
-  "name": "select-search",
-  "version": "0.1.0",
-  "private": true,
+  "name": "select-search-vue",
+  "version": "0.1.2",
+  "private": false,
   "author": {
     "name": "Andrii Fedorenko",
-    "email": "andreiif123@gmail.com",
-    "scripts": {
-      "serve": "vue-cli-service serve",
-      "build": "vue-cli-service build",
-      "test:unit": "vue-cli-service test:unit",
-      "lint": "vue-cli-service lint"
-    }
+    "email": "andreiif123@gmail.com"
+  },
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "test:unit": "vue-cli-service test:unit",
+    "lint": "vue-cli-service lint",
+    "build-library": "vue-cli-service build --target lib --name vue-hello-world-simple ./src/install.js"
   },
   "repository": "https://github.com/andriiF/select-search",
   "keywords": [
